@@ -178,6 +178,12 @@ h2 {
     margin-top: 0.5rem;
 }
 
+body.dark-mode .signature {
+    filter: brightness(0) saturate(100%) invert(73%) sepia(16%) saturate(1011%) hue-rotate(182deg) brightness(101%) contrast(92%);
+  }
+
+
+
 /* Text selection */
 ::selection {
     background-color: var(--selection-color);
@@ -329,4 +335,3 @@ body.dark-mode {
         margin-left: 1.5rem;
     }
 }
-
